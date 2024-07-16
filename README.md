@@ -7,7 +7,7 @@ This code follows the setting in 3DFed (https://github.com/haoyangliASTAPLE/3DFe
 * Install PyTorch for your CUDA version and install hdbscan~=0.8.15.
 * Download the pretrained model (https://drive.google.com/file/d/11-axzUN-PTbeJCkx2KLZ2cJt15Z0fbLE/view?usp=sharing) and put it in the directory `saved_models/resume_model`.
 
-## Experiments on CIFAR10
+## Experiments on CIFAR-10
 ```
 python DataFreeTraining.py --name cifar --params configs/cifar_fed.yaml
 ```
