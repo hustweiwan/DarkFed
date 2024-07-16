@@ -2,7 +2,7 @@
 This repository comprises of implementation of [DarkFed](https://arxiv.org/pdf/2405.03299).
 
 ## Installation
-This code follows the setting in 3DFed (https://github.com/haoyangliASTAPLE/3DFed) with`python=3.6.13`, `tprch=1.7.0` and `torchvision=0.8.1`.
+This code follows the setting in 3DFed(https://github.com/haoyangliASTAPLE/3DFed) with`python=3.6.13`, `tprch=1.7.0` and `torchvision=0.8.1`.
 * Install all dependencies using the requirements.txt in utils folder: `pip install -r utils/requirements.txt`.
 * Install PyTorch for your CUDA version and install hdbscan~=0.8.15.
 * Download the pretrained model (https://drive.google.com/file/d/11-axzUN-PTbeJCkx2KLZ2cJt15Z0fbLE/view?usp=sharing) and put it in the directory `saved_models/resume_model`.
